@@ -57,6 +57,21 @@ Click on the name of the desired plugin under the [`Plugins`](#plugins) section 
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
+## Adding new plugin
+
+```shell
+cd packages
+npm init @capacitor/plugin@latest
+# Package name should be like: @capgo/plugin-name
+directory name should be like: plugin-name
+Package ID should be like: app.capgo.plugins.plugin_name
+Class name should be like: PluginName
+Repo URL should be like: https://github.com/Cap-go/capacitor-plugins
+Author name should be like: Capgo <support@capgo.app>
+License should be like: MIT
+Description should be like: Plugin for plugin_name to do something
+```
+
 ## License
 
 Each plugin has its own `LICENSE` file which contains license information.
