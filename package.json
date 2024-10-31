@@ -1,0 +1,38 @@
+{
+  "name": "capacitor-plugins",
+  "private": true,
+  "packageManager": "npm@8.3.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "verify": "npm run verify:android && npm run verify:ios && npm run verify:web",
+    "verify:android": "turbo run verify:android --concurrency=1 --no-cache",
+    "verify:ios": "turbo run verify:ios --concurrency=1 --no-cache",
+    "verify:web": "turbo run verify:web --no-cache",
+    "lint": "turbo run lint",
+    "fmt": "turbo run fmt",
+    "docgen": "turbo run docgen",
+    "build": "turbo run build",
+    "version": "turbo run version",
+    "ios:pod:install": "turbo run ios:pod:install --concurrency=1 --no-cache",
+    "affected:verify": "npm run affected:verify:android && npm run affected:verify:ios && npm run affected:verify:web",
+    "affected:verify:android": "turbo run verify:android --since=origin/main --concurrency=1 --no-cache",
+    "affected:verify:ios": "turbo run verify:ios --since=origin/main --concurrency=1 --no-cache",
+    "affected:verify:web": "turbo run verify:web --since=origin/main --no-cache",
+    "affected:lint": "turbo run lint --since=origin/main",
+    "affected:fmt": "turbo run fmt --since=origin/main",
+    "affected:docgen": "turbo run docgen --since=origin/main",
+    "affected:build": "turbo run build --since=origin/main",
+    "affected:version": "turbo run version --since=origin/main",
+    "changeset": "changeset",
+    "release": "npm run build && changeset publish",
+    "release:preview": "pkg-pr-new publish './packages/*'"
+  },
+  "devDependencies": {
+    "@changesets/cli": "2.21.1",
+    "@robingenz/changelog-github": "0.0.1",
+    "pkg-pr-new": "0.0.20",
+    "turbo": "1.1.6"
+  }
+}
