@@ -16,9 +16,7 @@
 | Maintainer | GitHub                                    | Social                                        |
 | ---------- | ----------------------------------------- | --------------------------------------------- |
 | Martin Donadieu | [riderx](https://github.com/riderx) | [@martindonadieu](https://twitter.com/martindonadieu) |
-| Martin Donadieu | [WcaleNieWolny](https://github.com/WcaleNieWolny) | [@martindonadieu](https://twitter.com/martindonadieu) |
-
-| Michael Tram
+| Michael| [WcaleNieWolny](https://github.com/WcaleNieWolny) | ****** |
 
 ## Sponsors
 
@@ -26,11 +24,11 @@ This is an open source project.
 It can grow thanks to the support by these awesome people.
 If you'd like to join them, please read more [here](https://github.com/sponsors/Cap-go).
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://cdn.jsdelivr.net/gh/Cap-go/static/images/sponsors/sponsors.svg">
     <img src="https://cdn.jsdelivr.net/gh/Cap-go/static/images/sponsors/sponsors.svg" />
   </a>
-</p>
+</p> -->
 
 ## Installation
 
