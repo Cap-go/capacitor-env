@@ -1,6 +1,6 @@
 {
   "name": "@capgo/env",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Env variable at runtime",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
