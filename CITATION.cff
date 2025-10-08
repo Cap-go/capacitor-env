@@ -1,9 +1,0 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Donadieu"
-  given-names: "Martin"
-title: "Capacitor Plugins"
-version: 6.0.0
-date-released: 2024-10-31
-url: "https://github.com/Cap-go/capacitor-plugins"
