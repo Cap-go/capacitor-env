@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.1.1](https://github.com/Cap-go/capacitor-plugins/compare/7.1.0...7.1.1) (2025-10-08)
+
+
+### Bug Fixes
+
+* lint ([a5fda73](https://github.com/Cap-go/capacitor-plugins/commit/a5fda739763c0ef707b8311d03cfc509b53e665e))
+
 ## 7.1.0 (2025-10-08)
 
 
