@@ -1,11 +1,17 @@
-# env
+# @capgo/capacitor-env
+ <a href="https://capgo.app/"><img src='https://raw.githubusercontent.com/Cap-go/capgo/main/assets/capgo_banner.png' alt='Capgo - Instant updates for capacitor'/></a>
 
-Env variable at runtime
+<div align="center">
+  <h2><a href="https://capgo.app/?ref=plugin"> ➡️ Get Instant updates for your App with Capgo</a></h2>
+  <h2><a href="https://capgo.app/consulting/?ref=plugin"> Missing a feature? We’ll build the plugin for you 💪</a></h2>
+</div>
+
+Set Env var in Capacitor config and read them at runtime
 
 ## Install
 
 ```bash
-npm install env
+npm install @capgo/capacitor-env
 npx cap sync
 ```
 

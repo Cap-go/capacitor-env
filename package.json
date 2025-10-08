@@ -1,7 +1,7 @@
 {
-  "name": "@capgo/env",
+  "name": "@capgo/capacitor-env",
   "version": "7.1.1",
-  "description": "Env variable at runtime",
+  "description": "Set Env var in Capacitor config and read them at runtime",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -15,14 +15,14 @@
     "Package.swift",
     "Env.podspec"
   ],
-  "author": "Capgo <support@capgo.app>",
+  "author": "Martin Donadieu <martin@capgo.app>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cap-go/capacitor-plugins.git"
+    "url": "git+https://github.com/Cap-go/capacitor-env.git"
   },
   "bugs": {
-    "url": "https://github.com/Cap-go/capacitor-plugins/issues"
+    "url": "https://github.com/Cap-go/capacitor-env/issues"
   },
   "keywords": [
     "capacitor",
