@@ -14,7 +14,7 @@ public class EnvPlugin extends Plugin {
         String key = call.getString("key");
 
         JSObject ret = new JSObject();
-        ret.put("value",  this.getConfig().getString("publicKey", ""));
+        ret.put("value", this.getConfig().getString("publicKey", ""));
         call.resolve(ret);
     }
 }
