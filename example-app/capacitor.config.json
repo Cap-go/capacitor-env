@@ -1,6 +1,6 @@
 {
-  "appId": "com.example.plugin",
-  "appName": "example-app",
+  "appId": "app.capgo.env",
+  "appName": "Environment Example",
   "webDir": "dist",
   "plugins": {
     "SplashScreen": {
