@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.0.9](https://github.com/Cap-go/capacitor-env/compare/7.0.8...7.0.9) (2025-10-15)
+
+
+### Bug Fixes
+
+* lock and lint ([4fa6a0b](https://github.com/Cap-go/capacitor-env/commit/4fa6a0b92918726c9ff5217bb0520703df331137))
+
 ## [7.0.8](https://github.com/Cap-go/capacitor-env/compare/7.0.7...7.0.8) (2025-10-15)
 
 
