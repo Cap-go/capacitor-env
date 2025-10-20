@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [7.0.12](https://github.com/Cap-go/capacitor-env/compare/7.0.11...7.0.12) (2025-10-20)
+
+
+### Bug Fixes
+
+* name podspec ([1557859](https://github.com/Cap-go/capacitor-env/commit/15578599d21182ad0f63ed606f0ace0430f12acf))
+
 ## [7.0.11](https://github.com/Cap-go/capacitor-env/compare/7.0.10...7.0.11) (2025-10-17)
 
 ## [7.0.10](https://github.com/Cap-go/capacitor-env/compare/7.0.9...7.0.10) (2025-10-16)
