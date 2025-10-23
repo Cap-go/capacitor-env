@@ -7,4 +7,8 @@ export class EnvWeb extends WebPlugin implements EnvPlugin {
     console.log('GET_KEY', options);
     return { value: '' };
   }
+
+  async getPluginVersion(): Promise<{ version: string }> {
+    return { version: 'web' };
+  }
 }

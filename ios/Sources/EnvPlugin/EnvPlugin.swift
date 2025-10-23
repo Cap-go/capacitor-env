@@ -7,10 +7,12 @@ import Capacitor
  */
 @objc(EnvPlugin)
 public class EnvPlugin: CAPPlugin, CAPBridgedPlugin {
+    private let PLUGIN_VERSION: String = ""
     public let identifier = "EnvPlugin"
     public let jsName = "Env"
     public let pluginMethods: [CAPPluginMethod] = [
-        CAPPluginMethod(name: "getKey", returnType: CAPPluginReturnPromise)
+        CAPPluginMethod(name: "getKey", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "getPluginVersion", returnType: CAPPluginReturnPromise)
     ]
 
     @objc func getKey(_ call: CAPPluginCall) {
@@ -19,4 +21,9 @@ public class EnvPlugin: CAPPlugin, CAPBridgedPlugin {
             "value": getConfig().getString(key, "")
         ])
     }
+
+    @objc func getPluginVersion(_ call: CAPPluginCall) {
+        call.resolve(["version": self.PLUGIN_VERSION])
+    }
+
 }
