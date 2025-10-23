@@ -20,6 +20,7 @@ npx cap sync
 <docgen-index>
 
 * [`getKey(...)`](#getkey)
+* [`getPluginVersion()`](#getpluginversion)
 
 </docgen-index>
 
@@ -37,6 +38,19 @@ getKey(options: { key: string; }) => Promise<{ value: string; }>
 | **`options`** | <code>{ key: string; }</code> |
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### getPluginVersion()
+
+```typescript
+getPluginVersion() => Promise<{ version: string; }>
+```
+
+Get the native Capacitor plugin version
+
+**Returns:** <code>Promise&lt;{ version: string; }&gt;</code>
 
 --------------------
 
