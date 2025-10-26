@@ -31,15 +31,28 @@ npx cap sync
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
+Capacitor plugin for accessing environment variables in native code.
+
+This plugin provides a secure way to access environment variables that were
+compiled into the native application at build time. Environment variables
+can be configured during the build process and accessed at runtime without
+exposing them in the web bundle.
+
 ### getKey(...)
 
 ```typescript
 getKey(options: { key: string; }) => Promise<{ value: string; }>
 ```
 
-| Param         | Type                          |
-| ------------- | ----------------------------- |
-| **`options`** | <code>{ key: string; }</code> |
+Retrieves the value of a specific environment variable by key.
+
+This method fetches environment variables that were set during the native
+build process. The variables must be configured in the native project
+before they can be accessed at runtime.
+
+| Param         | Type                          | Description                                                    |
+| ------------- | ----------------------------- | -------------------------------------------------------------- |
+| **`options`** | <code>{ key: string; }</code> | - Configuration object containing the environment variable key |
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
@@ -52,7 +65,11 @@ getKey(options: { key: string; }) => Promise<{ value: string; }>
 getPluginVersion() => Promise<{ version: string; }>
 ```
 
-Get the native Capacitor plugin version
+Get the version of the native Capacitor plugin.
+
+This method returns the current version of the capacitor-env plugin
+that is installed in the native application. Useful for debugging
+and ensuring compatibility between the web and native components.
 
 **Returns:** <code>Promise&lt;{ version: string; }&gt;</code>
 
