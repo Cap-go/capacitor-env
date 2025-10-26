@@ -8,6 +8,10 @@
 
 Set Env var in Capacitor config and read them at runtime, This plugin is helpfull for multitenant app or white label, when you want to keep the same code but some config have to differ.
 
+## Documentation
+
+The most complete doc is available here: https://capgo.app/docs/plugins/env/
+
 ## Install
 
 ```bash
