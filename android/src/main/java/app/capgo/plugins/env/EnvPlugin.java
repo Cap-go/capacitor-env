@@ -9,7 +9,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "Env")
 public class EnvPlugin extends Plugin {
 
-    private final String PLUGIN_VERSION = "7.0.12";
+    private final String pluginVersion = "7.0.12";
 
     @PluginMethod
     public void getKey(PluginCall call) {
@@ -24,7 +24,7 @@ public class EnvPlugin extends Plugin {
     public void getPluginVersion(final PluginCall call) {
         try {
             final JSObject ret = new JSObject();
-            ret.put("version", this.PLUGIN_VERSION);
+            ret.put("version", this.pluginVersion);
             call.resolve(ret);
         } catch (final Exception e) {
             call.reject("Could not get plugin version", e);
