@@ -6,7 +6,7 @@
   <h2><a href="https://capgo.app/consulting/?ref=plugin_env"> Missing a feature? We’ll build the plugin for you 💪</a></h2>
 </div>
 
-Set Env var in Capacitor config and read them at runtime, This plugin is helpfull for multitenant app or white label, when you want to keep the same code but some config have to differ.
+Set Env var in Capacitor config and read them at runtime, This plugin is helpful for multitenant app or white label, when you want to keep the same code but some config have to differ.
 
 ## Documentation
 
