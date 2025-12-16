@@ -24,6 +24,7 @@
   "bugs": {
     "url": "https://github.com/Cap-go/capacitor-env/issues"
   },
+  "homepage": "https://capgo.app/docs/plugins/env/",
   "keywords": [
     "capacitor",
     "plugin",
