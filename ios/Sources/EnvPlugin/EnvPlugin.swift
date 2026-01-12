@@ -7,7 +7,7 @@ import Capacitor
  */
 @objc(EnvPlugin)
 public class EnvPlugin: CAPPlugin, CAPBridgedPlugin {
-    private let pluginVersion: String = "8.1.3"
+    private let pluginVersion: String = "8.1.4"
     public let identifier = "EnvPlugin"
     public let jsName = "Env"
     public let pluginMethods: [CAPPluginMethod] = [
