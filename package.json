@@ -1,6 +1,6 @@
 {
   "name": "@capgo/capacitor-env",
-  "version": "8.1.4",
+  "version": "8.1.5",
   "description": "Set Env var in Capacitor config and read them at runtime",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
