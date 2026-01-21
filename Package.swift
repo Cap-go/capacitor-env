@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Env",
+    name: "CapgoCapacitorEnv",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "Env",
+            name: "CapgoCapacitorEnv",
             targets: ["EnvPlugin"])
     ],
     dependencies: [
