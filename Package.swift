@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CapgoCapacitorEnv",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS("15.0")],
     products: [
         .library(
             name: "CapgoCapacitorEnv",
@@ -24,5 +24,6 @@ let package = Package(
             name: "EnvPluginTests",
             dependencies: ["EnvPlugin"],
             path: "ios/Tests/EnvPluginTests")
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
