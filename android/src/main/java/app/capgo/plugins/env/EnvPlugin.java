@@ -9,7 +9,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "Env")
 public class EnvPlugin extends Plugin {
 
-    private final String pluginVersion = "8.1.26";
+    private final String pluginVersion = "8.1.27";
 
     @PluginMethod
     public void getKey(PluginCall call) {
