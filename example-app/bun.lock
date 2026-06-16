@@ -10,10 +10,12 @@
         "@capacitor/core": "^8.0.0",
         "@capacitor/ios": "^8.0.0",
         "@capacitor/splash-screen": "latest",
+        "@capgo/capacitor-updater": "^8.45.11",
         "env": "file:..",
       },
       "devDependencies": {
         "@capacitor/cli": "^8.0.0",
+        "typescript": "^5.9.3",
         "vite": "^7.3.1",
       },
     },
@@ -36,6 +38,8 @@
     "@capacitor/ios": ["@capacitor/ios@8.3.3", "", { "peerDependencies": { "@capacitor/core": "^8.3.0" } }, "sha512-BHlTOxarrvkaqDdlTxKwip+dQmfQSnfctizpheR7SWp/VIlR0HcPpYzWMTiVbHQLq3nLRUdeZO1wSPVGvxzAPA=="],
 
     "@capacitor/splash-screen": ["@capacitor/splash-screen@8.0.1", "", { "peerDependencies": { "@capacitor/core": ">=8.0.0" } }, "sha512-c/ew/Z3eA7z8l06WoRAtzVF16VwYYrExmHmfGq1Cg675pVzaC/yuucB8/1xG1vhEfnW4fZ1KhSf/kzR1RiVYgg=="],
+
+    "@capgo/capacitor-updater": ["@capgo/capacitor-updater@8.47.10", "", { "peerDependencies": { "@capacitor/core": "^8.0.0" } }, "sha512-T/x2Lu9WXknYzCGLKNv1tVaV+UDqBONFI5I2iXg9I5IOSm7Q60DtHuAWckT1BHzszEZ/XqkMqh89cXhhEesViA=="],
 
     "@chevrotain/cst-dts-gen": ["@chevrotain/cst-dts-gen@11.0.3", "", { "dependencies": { "@chevrotain/gast": "11.0.3", "@chevrotain/types": "11.0.3", "lodash-es": "4.17.21" } }, "sha512-BvIKpRLeS/8UbfxXxgC33xOumsacaeCKAjAeLyOn7Pcp95HiRbrpl14S+9vaZLolnbssPIUuiUd8IvgkRyt6NQ=="],
 
