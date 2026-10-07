@@ -1,12 +1,27 @@
 # @capgo/capacitor-env
-<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-env" alt="Capgo - Instant updates for Capacitor" /></a>
+
+Read environment values from your Capacitor config at runtime, so one codebase can ship as many white label or multi-tenant apps with different settings.
+
+<a href="https://capgo.app/?ref=plugin_env"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-env" alt="Capgo - Instant updates for Capacitor" /></a>
 
 <div align="center">
-  <h2><a href="https://capgo.app/?ref=plugin_env"> ➡️ Get Instant updates for your App with Capgo</a></h2>
-  <h2><a href="https://capgo.app/consulting/?ref=plugin_env"> Missing a feature? We’ll build the plugin for you 💪</a></h2>
+  <p><b>Capgo</b>: open-source live updates for Ionic and Capacitor apps. Ship OTA fixes and features instantly, without waiting for app store review.</p>
+  <h2><a href="https://capgo.app/register/?ref=plugin_env">➡️ Get started for free</a></h2>
+  <p>14-day unlimited free trial. No credit card required</p>
+  <p><a href="https://capgo.app/consulting/?ref=plugin_env">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
-Set Env var in Capacitor config and read them at runtime, This plugin is helpful for multitenant app or white label, when you want to keep the same code but some config have to differ.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cap-go/capacitor-env/main/assets/github-social-preview.png" alt="@capgo/capacitor-env for Capacitor apps" width="300" />
+</p>
+
+## Key features
+
+- **Runtime config**: `getKey()` returns a value you set in the plugin section of `capacitor.config`.
+- **White label friendly**: keep the same web code and change only the native config per app.
+- **Native read**: values come from the Capacitor plugin config on iOS and Android.
+- **Safe default**: a missing key returns an empty string.
+- **Platforms**: iOS and Android. On web, `getKey()` returns an empty string.
 
 ## Documentation
 
