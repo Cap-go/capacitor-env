@@ -18,7 +18,7 @@ public class EnvPlugin: CAPPlugin, CAPBridgedPlugin {
     @objc func getKey(_ call: CAPPluginCall) {
         let key = call.getString("key") ?? ""
         call.resolve([
-            "value": getConfig().getString(key, "")
+            "value": getConfig().getString(key, "") ?? ""
         ])
     }
 
